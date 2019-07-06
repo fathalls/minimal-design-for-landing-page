@@ -35,8 +35,10 @@ body{
 }
 
 .bio-container{
-    display: flex;
+
     height: 100%;
+    display: flex;
+    flex: 100%;
     flex-direction: column;
     position: relative;
 }
@@ -58,12 +60,24 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+    html{
+
+        height: inherit;
+    }
+    
+    body{
+
+        height: inherit;
+    }
+    
     .body-container{
         flex-direction: column;
+        height: inherit;
     }
 
     .bio{
         width: 100%;
+        height: inherit;
         position: relative;
         border-right-style: none;
     }
@@ -96,7 +110,7 @@ li{
 
 li:hover{
     background-color:rgb(253, 249, 251);
-    color:blue;
+    color:rgb(248, 59, 232);
 }
 
 .social{
