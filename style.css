@@ -1,135 +1,129 @@
-html { height: 100%; }
+html {
+  height: 100%;
+}
 
 html {
-    line-height: 1.6;
-  }
-
-  html {
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  li {
-    line-height: 1.2;
-    color: #444444;
-  }
-
-  p{
-    color:#666666;
-  }
-
-body{
-    height: 100%;
-    display: flex;
-    align-items: stretch; 
+  line-height: 1.6;
 }
 
-.body-container{
-    height: 100%;
-    flex: 100%;
-    display: flex;
+html {
+  font-family: "PT Sans", sans-serif;
 }
 
-.bio-container{
-
-    height: 100%;
-    display: flex;
-    flex: 100%;
-    flex-direction: column;
-    position: relative;
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  line-height: 1.2;
+  color: #444444;
 }
 
-.bio{
-    position: fixed;
-    height: 92%;
-    width: 50%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    display:block;
-    margin-top:20px;
-    margin-bottom: 20px;
+p {
+  color: #666666;
 }
 
-.content{
-    width: 50%;
-    padding-left: 50%;
+body {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.body-container {
+  height: 100%;
+  flex: 100%;
+  display: flex;
+}
+
+.bio-container {
+  height: 100%;
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.bio {
+  position: fixed;
+  height: 92%;
+  width: 50%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 50%;
+  padding-left: 50%;
 }
 
 @media only screen and (max-width: 768px) {
-    html{
+  html {
+    height: inherit;
+  }
 
-        height: inherit;
-    }
-    
-    body{
+  body {
+    height: inherit;
+  }
 
-        height: inherit;
-    }
-    
-    .body-container{
-        flex-direction: column;
-        height: inherit;
-    }
+  .body-container {
+    flex-direction: column;
+    height: inherit;
+  }
 
-    .bio{
-        width: 100%;
-        height: inherit;
-        position: relative;
-        border-right-style: none;
-    }
-    .content{
-        width: 100%;
-        padding-left: 0%;
-    }
+  .bio {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    border-right-style: none;
+  }
+  .content {
+    width: 100%;
+    padding-left: 0%;
+  }
 }
 
-h2{
-padding-left: 50px;
-padding-top: 200px;
+h2 {
+  padding-left: 50px;
+  padding-top: 200px;
 }
 
 .bio-description,
-ul
-{
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 25px;
-padding-bottom: 25px;
+ul {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-li{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
+li {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom-style: inset;
+  border-bottom-width: 1px;
 }
 
-li:hover{
-    background-color:rgb(253, 249, 251);
-    color:#FF9AA2;
+li:hover {
+  background-color: rgb(253, 249, 251);
+  color: #ff9aa2;
 }
 
-.social{
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    display: flex;
-    justify-content: space-evenly;
+.social {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .fa {
-    text-decoration: none;
-    font-size: 400px;
-  }
-  
-  a:active{
-    color: rgb(22, 58, 177);
-  }
+  text-decoration: none;
+  font-size: 400px;
+}
 
-
-
-  
+a:active {
+  color: rgb(22, 58, 177);
+}
